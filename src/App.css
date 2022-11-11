@@ -1,0 +1,60 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+  background-color:#0B2434;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main{
+  width: 70%;
+  height: 80%;
+  background-color: #F5F5F5;
+  border-radius: 1 0px;
+}
+.dice-container{
+  height: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+.dice{
+  width:45.84px;
+  height: 45.84px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 3.81277px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.8rem;
+  border: none;
+  cursor: pointer;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+
+}
+.roll-btn{
+  background: #5035FF;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border-radius: 3.81277px;
+  padding: 10px 20px;
+  border: none;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  font-size: larger;
+  cursor: pointer;
+}
+.color{
+  background-color: #59E391;
+}
+.title , .instructions{
+  text-align: center;
+}
